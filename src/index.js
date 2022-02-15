@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const fileNames = (dir) => {
+const findFiles = (dir) => {
   fs.readdir(dir, (err, files) => {
     if (err) {
       return err;
@@ -35,4 +35,4 @@ const fileNames = (dir) => {
 
 const currentDir = __dirname;
 
-fileNames(currentDir);
+findFiles(currentDir);
