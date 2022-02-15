@@ -12,7 +12,7 @@ const findFiles = (dir) => {
             return err;
           } else {
             if (stats.isDirectory()) {
-              fileNames(filePath);
+              findFiles(filePath);
             } else {
               const fileInfo = filePath + "-------" + stats.size + "kb" + "\n";
               fs.writeFile(
@@ -33,6 +33,9 @@ const findFiles = (dir) => {
   });
 };
 
-const currentDir = __dirname;
+// const currentDir = __dirname;
 
-findFiles(currentDir);
+const args = process.argv.slice(2)[0];
+console.log(args);
+
+findFiles(args);
