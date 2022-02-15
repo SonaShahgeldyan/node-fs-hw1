@@ -1,0 +1,5 @@
+/Users/sonashahgeldyan/projects/cssL/src/index.js-------1480kb
+/Users/sonashahgeldyan/projects/cssL/src/sorted_files.txt-------0kb
+/Users/sonashahgeldyan/projects/cssL/src/files/index.html-------790kb
+/Users/sonashahgeldyan/projects/cssL/src/files/text.txt-------16kb
+/Users/sonashahgeldyan/projects/cssL/src/files/img/screen.png-------3980kb
